@@ -1,0 +1,528 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+
+        <title>NPR's Election Party - Tyler Fisher</title>
+
+        <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+        <meta name="author" content="Hakim El Hattab">
+
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <script type="text/javascript" src="//use.typekit.net/drv8ufz.js"></script>
+        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+        <script src="//ajax.googleapis.com/ajax/libs/webfont/1.4.10/webfont.js"></script>
+            <script>
+                WebFont.load({
+                     custom: {
+                         families: [
+                             'Gotham SSm:n4,n7',
+                             'Gotham:n4,n7'
+                         ],
+                         urls: [
+                             'http://s.npr.org/templates/css/fonts/GothamSSm.css',
+                             'http://s.npr.org/templates/css/fonts/Gotham.css'
+                         ]
+                     },
+                     timeout: 10000
+                 });
+            </script>
+
+        <link rel="stylesheet" href="css/reveal.min.css">
+        <link rel="stylesheet" href="css/theme/new.css" id="theme">
+
+        <!-- For syntax highlighting -->
+        <link rel="stylesheet" href="lib/css/zenburn.css">
+
+        <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+        <script>
+            if( window.location.search.match( /print-pdf/gi ) ) {
+                var link = document.createElement( 'link' );
+                link.rel = 'stylesheet';
+                link.type = 'text/css';
+                link.href = 'css/print/pdf.css';
+                document.getElementsByTagName( 'head' )[0].appendChild( link );
+            }
+        </script>
+
+        <!--[if lt IE 9]>
+        <script src="lib/js/html5shiv.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+
+        <div class="reveal">
+
+            <div class="slides">
+                <section>
+                    <h1>NPR&rsquo;s Election Party</h1>
+
+                    <p><a href="http://twitter.com/tylrfishr">Tyler Fisher</a>, <a href="http://blog.apps.npr.org">NPR Visuals Team</a></p>
+
+                    <aside class="notes">
+
+                    </aside>
+                </section>
+
+                <section>
+                    <h2>We built </br>  <a href="http://elections.npr.org">an election app</a> </br><strong>for TVs.</strong></h2>
+                </section>
+
+                <section>
+                    <h2>Elections at NPR</h2>
+                    <p>A brief history.</p>
+
+                    <aside class="notes">
+
+                    </aside>
+                </section>
+
+                <section>
+                    <img src="img/2012-board.png">
+                    <aside class="notes">
+
+                    </aside>
+                </section>
+
+                <section>
+                    <img src="img/nprparty.png">
+                    <aside class="notes">
+
+                    </aside>
+                </section>
+
+                <section>
+                    <img src="img/nprpartypic.jpg">
+                    <aside class="notes">
+
+                    </aside>
+                </section>
+
+                <section>
+                    <img src="img/nprpartypic2.jpg">
+                    <aside class="notes">
+
+                    </aside>
+                </section>
+
+                <section>
+                    <img src="img/nprpartypic3.jpg">
+                    <aside class="notes">
+
+                    </aside>
+                </section>
+
+                <section>
+                    <h3>What does a passive </br>election night app look like?</h3>
+                    <aside class="notes">
+
+                    </aside>
+                </section>
+
+                <section data-state="title-slide">
+                    <h2 class="title-slide-text">What we </br>didn&rsquo;t build</h2>
+                </section>
+
+                <section>
+                    <h2>A hierarchical website</h2>
+                </section>
+
+                <section>
+                    <h2>A liveblog (sort of)</h2>
+                </section>
+
+                <section>
+                    <h1>Maps</h1>
+                </section>
+
+                <section>
+                    <h2>Anything to </br>interact with</h2>
+                </section>
+
+                <section data-state="title-slide">
+                    <h2 class="title-slide-text">What we built</h2>
+                </section>
+
+                <section>
+                    <h2>Live audio</h2>
+                </section>
+
+                <section>
+                    <h2>Big boards</h2> 
+                    <p>A glance at everything on one screen</p>
+                </section>
+
+                <section data-background="img/2014-board.png" data-background-size="1200px" data-transition='none' data-background-transition='none'>
+                </section>
+
+                <section>
+                    <h2>Scorecards</h2>
+                    <p>Interesting slices of the election</p>
+                </section>
+
+                <section data-background="img/incumbents.png" data-background-size="1200px" data-transition='none' data-background-transition='none'>
+                </section>
+
+                <section>
+                    <h2>Yes, a liveblog</h2>
+                    <p>But for context, not just flash news updates</p>
+                </section>
+
+                <section data-background="img/quote.png" data-background-size="1200px" data-transition='none' data-background-transition='none'>
+                </section>
+
+                <section>
+                    <h3>Recently called races</h3>
+                    <p>For a sense of timeliness</p>
+                </section>
+
+                <section>
+                    <h2>THIS IS FAKE DATA</h2>
+                    <img src="img/recent.png">
+                </section>
+
+                <section>
+                    <h2>State-specific results</h2>
+                </section>
+
+                <section data-background="img/texas.png" data-background-size="1200px" data-transition='none' data-background-transition='none'>
+                </section>
+
+                <section data-state="title-slide">
+                    <h2 class="title-slide-text">How we built it</h2>
+                </section>
+
+                <section>
+                    <h2>Started from the <a href="http://github.com/nprapps/app-template" target="_blank">app template</a></h2>
+
+                    <p>Now we&rsquo;re here</p>
+
+                    <p><small>I&rsquo;m so sorry.</small></p>
+                </section>
+
+                <section>
+                    <h2>The Moving Parts</h2>
+
+                    <ul>
+                        <li>Data from the Associated Press</li>
+                        <li>Our own compiled data</li>
+                        <li>Liveblog updates from Tumblr</li>
+                        <li>A live-updating stack of slides, &ldquo;DJ&rsquo;ed&rdquo; by a politics producer</li>
+                        <li>A live radio show</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <p>We <strong>always</strong> build static websites.</p>
+
+                    <p>How can you make a live website static?</p>
+                </section>
+
+                <section>
+                    <h2>We had a server!</h2>
+
+                    <p>Powered by our static site</br> generating app template!</p>
+                </section>
+
+                <section>
+                    <h2>The two functions of the server</h2>
+                    <ol>
+                        <li>Run an admin to DJ the stack of slides</li>
+                        <li>Ingest new data and regenerate the entire website</li>
+                    </ol>
+                </section>
+
+                <section>
+                    <h2>The server-side </br> tech stack</h2>
+                    <ul>
+                        <li>One EC2 server running Ubuntu</li>
+                        <li>Two Flask apps</li>
+                        <li>A PostgreSQL database on RDS</li>
+                        <li>Two daemons running Fabric commands</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>One problem</h2>
+
+                    <p>Regenerating static sites is slow, </br> even on big servers.</p>
+                </section>
+
+                <section>
+                    <h2>Multiprocessing!</h2>
+                    <pre><code>
+slides = models.Slide.select()
+slugs = [slide.slug for slide in slides if slide.slug not
+    in ['state-senate-results', 'state-house-results'] and not 
+    slide.slug.startswith('tumblr')]
+slides.database.close()
+
+Parallel(n_jobs=NUM_CORES)(delayed(_render_results_slide)
+    (slug, output_path) for slug in slugs)
+                    </code></pre>
+                </section>
+
+                <section>
+                    <h2>The client-side app</h2>
+                </section>
+
+                <section>
+                    <h2>What it had to do</h2>
+
+                    <ul>
+                        <li>Check to see if the user had a Chromecast</li>
+                        <li>Geolocate the user</li>
+                        <li>Inject HTML asynchronously on slide change</li>
+                        <li>Check for new versions of the stack JSON</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>Chromecast</h2>
+
+                    <p>We might have built a <a href="https://gist.github.com/TylerFisher/9415aa0e75040f13028d" target="_blank">library.</a></p>
+                </section>
+
+                <section>
+                    <h2>Simple tab mirroring wasn&rsquo;t enough</h2>
+                </section>
+
+                <section data-background="img/fakecast.png" data-background-size="1200px" data-transition='none' data-background-transition='none'>
+                </section>
+
+                <section>
+                    <h2>Chromecasts are slow</h2>
+                    <pre><code>
+if (IS_CAST_RECEIVER) {
+    $newSlide.show();
+    setTimer();
+}
+else {
+    $newSlide.velocity('fadeIn', 800, setTimer);
+}
+                    </code></pre>
+                </section>
+
+                <section data-state="title-slide">
+                    <h2 class="title-slide-text">Interesting code</h2>
+                </section>
+
+                <section>
+                    <h2>Responsive slideshows</h2>
+                </section>
+
+                <section>
+                    <h2>The CSS</h2>
+
+                    <pre><code>
+html {
+    font-size:1vw;
+}
+body {
+    margin:0;
+}
+ 
+#stack {
+    box-sizing:border-box;
+    margin: 0 auto;
+ 
+    width: 100rem;
+    height: 56.25rem;
+}
+                    </code></pre>
+
+                    <p>Everything else is in rems.</p>
+                </section>
+
+                <section>
+                    <h2>The JavaScript</h2>
+
+                    <pre><code>
+var onWindowResize = function(){
+    var aspect = window.innerWidth / window.innerHeight;
+    if ( aspect > 16/9) {
+        document.documentElement.style.fontSize = ((16/9) / aspect) 
+            + 'vw';
+    } else {
+        document.documentElement.style.fontSize = '1vw';
+    }
+}
+                    </code></pre>
+                </section>
+
+                <section>
+                    <img height="600" src="img/rotate.png">
+                </section>
+
+                <section>
+                    <h3>How do you push hotfixes on a live streaming app?</h3>
+                </section>
+
+                <section>
+                    <p>Generate a timestamp file locally:</p>
+
+                    <pre><code>
+def reset_browsers():
+    """
+    Create a timestampped JSON file so the client will reset their page.
+    """
+    payload = {}
+ 
+    # get current time and convert to epoch time
+    now = datetime.now().strftime('%s')
+    
+    # set everything you want in the json file
+    payload['timestamp'] = now
+ 
+    with open('www/live-data/timestamp.json', 'w') as f:
+        json.dump(now, f)
+ 
+    deploy_json('www/live-data/timestamp.json', 'live-data/timestamp.json')
+                    </code></pre>
+                </section>
+
+                <section>
+                    <p>Poll the timestamp file on the client. If the timestamp changed, refresh the page:</p>
+
+                    <pre><code>
+var reloadTimestamp = null;
+ 
+var getTimestamp = function() {
+    if (reloadTimestamp == null) {
+        checkTimestamp();
+    }
+    setInterval(checkTimestamp, 180000);
+}
+ 
+var checkTimestamp = function() {
+    $.ajax({
+        'url': '/live-data/timestamp.json',
+        'cache': false,
+        'success': function(data) {
+            var newTime = data['timestamp'];
+            
+            if (reloadTimestamp == null) {
+                reloadTimestamp = newTime;
+            }
+            
+            if (reloadTimestamp != newTime) {
+                $.cookie('reload', true);
+                
+                window.location.reload(true);
+            }
+        }
+    });
+}
+ 
+$(document).ready(function)() {
+    getTimestamp();
+    
+    if ($.cookie('reload')) {
+
+        $.removeCookie('reload');
+    }
+});
+                    </code></pre>
+                </section>
+
+                <section>
+                    <h2>Wanna dig deeper?</h2>
+
+                    <p><a href="http://github.com/nprapps/elections14" target="_blank">github.com/nprapps/elections14</a></p>
+                </section>
+
+                <section data-state="title-slide">
+                    <h2 class="title-slide-text">Why we did this</h2>
+                </section>
+
+                <section>
+                    <h3>Many news organiztions </br> do elections well.</h3>
+                </section>
+
+                <section>
+                    <h2>We targeted a <strong>different</strong> audience.</h2>
+                </section>
+
+                <section>
+                    <img src="img/NOCABLE.png">
+                </section>
+
+                <section>
+                    <h3>Our advantage is our radio and our live analysis.</h3>
+                </section>
+
+                <section>
+                    <h2>Wait, why a party?</h2>
+                </section>
+
+                <section>
+                    <img src="img/FRIENDS.png">
+                </section>
+
+                <section>
+                    <h2>We can include our audience better.</h2>
+                </section>
+
+                <section data-background="img/studio.png" data-background-size="1200px" data-transition='none' data-background-transition='none'>
+                </section>
+
+                <section data-background="img/projector.png" data-background-size="1200px" data-transition='none' data-background-transition='none'>
+                </section>
+
+                <section>
+                    <h3>This job isn&rsquo;t any fun if you aren&rsquo;t trying new things.</h3>
+                </section>
+
+                <section data-state="title-slide">
+                    <h2 class="title-slide-text">Questions?</h2>
+
+                    <p class="title-slide-text"><a href="http://twitter.com/tylrfishr">@tylrfishr</a></p>
+                    <p class="title-slide-text"><a href="https://elections.npr.org">elections.npr.org</a></p>
+                </section>
+
+            </div>
+
+        </div>
+
+        <script src="lib/js/head.min.js"></script>
+        <script src="js/reveal.min.js"></script>
+
+        <script>
+
+            // Full list of configuration options available here:
+            // https://github.com/hakimel/reveal.js#configuration
+            Reveal.initialize({
+                controls: false,
+                progress: false,
+                history: true,
+                center: true,
+
+                theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+                transition: Reveal.getQueryHash().transition || 'none', // default/cube/page/concave/zoom/linear/fade/none
+
+                // Parallax scrolling
+                // parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+                // parallaxBackgroundSize: '2100px 900px',
+
+                // Optional libraries used to extend on reveal.js
+                dependencies: [
+                    { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+                    // { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    // { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                    { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+                    { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+                ]
+            });
+
+        </script>
+
+    </body>
+</html>
